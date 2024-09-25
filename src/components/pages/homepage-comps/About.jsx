@@ -16,7 +16,7 @@ const About = () => {
 
                     <p className="mb-4 py-6">
                     I’m a mobile developer experienced in building apps for small and medium-sized businesses. Whether you’re looking to create a new mobile app, enhance your app’s user experience, or launch on iOS and Android, I can help.
-Skilled in Flutter, Dart, Firebase, REST APIs, and state management with GetX or Bloc.
+Skilled in Flutter, Dart, Firebase, REST APIs, and state management Bloc.
 Full project management from idea to deployment.
 I value regular communication, so let’s keep in touch throughout the development process.
                     </p>
