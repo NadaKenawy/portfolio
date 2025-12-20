@@ -15,7 +15,7 @@ const ProjectCard = ({ project, handleModalInfo }) => {
         <img
           src={project.src}
           alt={project.title}
-          className="w-full h-auto object-contain transition-transform duration-300 hover:scale-105"
+          className="w-full h-auto max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-105"
         />
       </div>
 
