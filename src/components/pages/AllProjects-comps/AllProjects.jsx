@@ -6,7 +6,7 @@ const AllProjects = () => {
     {
       id: 1,
       title: 'CareNest App',
-      description: 'Features include baby cry analysis, health tracking, and a bilingual chatbot.Healthcare & mother care mobile application',
+      description: 'CareNest is an AI-powered mobile application designed to support new parents. It features real-time baby cry analysis, health and growth tracking, vaccination reminders, and a bilingual chatbot that provides guidance and tips for infant care. The app aims to enhance parental confidence and streamline baby care management.',
       src: '/images/projectsImages/CareNestApp.png',
       code: 'https://github.com/NadaKenawy/CareNest-App-GraduationProject',
     },
