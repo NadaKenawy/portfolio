@@ -7,7 +7,6 @@ const ProjectCard = ({ project, handleModalInfo }) => {
 
   return (
     <div className="bg-[#0f172a] rounded-xl shadow-lg overflow-hidden flex flex-col h-full">
-      
       {/* Image */}
       <div
         onClick={() => handleModalInfo(project)}
@@ -16,7 +15,7 @@ const ProjectCard = ({ project, handleModalInfo }) => {
         <img
           src={project.src}
           alt={project.title}
-          className="w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
+          className="w-full h-auto object-contain transition-transform duration-300 hover:scale-105"
         />
       </div>
 
