@@ -4,7 +4,7 @@ const projects = [
     title: "CareNest - AI-Powered Infant Care AppDeveloped",
     description: "Features include baby cry analysis, health tracking, and a bilingual chatbot.",
     technologies: "Using Flutter, Dart, Firebase, Dio, and Retrofit with Clean Architecture. Used Cubit for state management and get_it for dependency injection.",
-    src: "public/images/projectsImages/CareNestApp.png",
+    src: "/images/projectsImages/CareNestApp.png",
     code: "https://github.com/NadaKenawy/CareNest-App-GraduationProject",
   },
 {
