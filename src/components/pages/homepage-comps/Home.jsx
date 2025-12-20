@@ -14,10 +14,11 @@ const Home = () => {
     <h1 className='text-4xl md:text-6xl font-bold text-white mb-2 mt-3 md:mt-0 md:mb-4'>  Hello, I'm Nada Kenaway</h1>
     <h2 className='rounded-md bg-primary-color/20 max-w-max px-6 inline text-xl md:text-3xl lg:text-4xl font-semibold text-white'>
     Mobile Application Developer</h2>
-    <p className='text-gray-300 py-4 max-x-md text-justify'>
-    My name is Nada and I'm 21 years old ambitious junior mobile application
-          developer. Now I'm looking for a new position and new challenges.
-     </p>
+     <p className='text-gray-300 py-4 max-w-md'>
+            My name is Nada and I'm a 22-year-old ambitious junior mobile application
+            developer. I am currently looking for a new position and exciting challenges
+            to further grow my skills and contribute to impactful projects.
+          </p>
 
     <div className='hidden desktop:flex'>
       <Link to='About' smooth duration={500} className='group text-black font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-t from-green-400 to-primary-color cursor-pointer mx-auto md:mx-0'>

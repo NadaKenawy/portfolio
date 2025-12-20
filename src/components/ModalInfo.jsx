@@ -31,17 +31,6 @@ export function ModalInfo({ SelectedProject, closeModal }) {
             </li>
 
             <li>
-              <span className="text-primary-color">Demo: </span>
-              <a
-                target="_blank"
-                className="hover:underline hover:underline-offset-4 hover:text-dark-green transition-all duration-500"
-                href={SelectedProject.demo}
-              >
-                Click here to see the project
-              </a>
-            </li>
-
-            <li>
               <span className="text-primary-color">Code: </span>
               <a
                 target="_blank"

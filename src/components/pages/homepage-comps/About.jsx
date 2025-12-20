@@ -15,10 +15,7 @@ const About = () => {
                     </div>
 
                     <p className="mb-4 py-6">
-                    I’m a mobile developer experienced in building apps for small and medium-sized businesses. Whether you’re looking to create a new mobile app, enhance your app’s user experience, or launch on iOS and Android, I can help.
-Skilled in Flutter, Dart, Firebase, REST APIs, and state management Bloc.
-Full project management from idea to deployment.
-I value regular communication, so let’s keep in touch throughout the development process.
+                    Junior Mobile Application Developer specialized in cross-platform apps using Flutter. Experienced in designing and developing a range of small to mid-scale mobile projects across different domains. Skilled in Flutter, Dart, Firebase, REST APIs, and Bloc state management, with a strong understanding of the mobile development lifecycle. Passionate about delivering scalable, user-friendly applications while continuously improving performance, code quality, and UI/UX.
                     </p>
 
                     <p>Thanks to my creativity, my attention to detail and my determination, I realized that I have a great talent for developing mobile applications.

@@ -13,7 +13,7 @@ const MobileSocialLinks = () => {
                     <FaLinkedin size={20} /> LinkedIn
                 </>
             ),
-            href: 'https://www.linkedin.com/in/esraa-abdelnasser-139200222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
+            href: 'https://www.linkedin.com/in/nada-kenawy-63a274244/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
             style: 'rounded-tr-md'
         },
         {
@@ -23,7 +23,7 @@ const MobileSocialLinks = () => {
                     <FaGithub size={20} /> GitHub 
                 </>
             ),
-            href: 'https://github.com/esraa-abdo3'
+            href: 'https://github.com/NadaKenawy'
         },
         {
             id: 3,
@@ -32,7 +32,7 @@ const MobileSocialLinks = () => {
                     <HiOutlineMail size={20} /> Mail
                 </>
             ),
-            href: 'mailto:esraaabdalnasserzz@gmail.com'
+            href: 'mailto:nadakenayw298@gmail.com'
         },
       
     ]

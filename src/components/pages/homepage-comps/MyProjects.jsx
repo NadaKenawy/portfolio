@@ -33,7 +33,13 @@ const MyProjects = () => {
         </div>
 
         {/* Adjust grid to prevent overlapping */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-6">
+        <div className="  grid 
+  gap-8
+  grid-cols-1
+  sm:grid-cols-2
+  lg:grid-cols-3
+  max-w-screen-xl
+  mx-auto">
           {projects.map((project) => (
             <ProjectCard
               key={project.id}
