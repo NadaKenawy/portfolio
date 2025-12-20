@@ -13,7 +13,7 @@ const projects = [
   description:
     "A community-based mobile application that connects people in need with nearby volunteers for real-time assistance and support.",
   technologies:
-    "Built using Flutter and Dart, integrated with Firebase for authentication and notifications, Google Maps for location services, REST APIs using Dio, Bloc/Cubit for state management, and Clean Architecture principles.",
+    "Built using Flutter and Dart, integrated with Firebase for notifications, get_it for dependency injection, Google Maps for location services, REST APIs using Dio, Bloc/Cubit for state management, and Clean Architecture principles.",
   src: "/images/projectsImages/RafikApp.png",
   code: "https://github.com/NadaKenawy/Rafik-App",
 },
