@@ -4,48 +4,54 @@ import { Link } from 'react-router-dom';
 const AllProjects = () => {
   const projects = [
     {
-      id: 1,
-      title: 'CareNest App',
-      description: 'CareNest is an AI-powered mobile application designed to support new parents. It features real-time baby cry analysis, health and growth tracking, vaccination reminders, and a bilingual chatbot that provides guidance and tips for infant care. The app aims to enhance parental confidence and streamline baby care management.',
-      src: '/images/projectsImages/CareNestApp.png',
-      code: 'https://github.com/NadaKenawy/CareNest-App-GraduationProject',
-    },
-    {
-      id: 2,
-      title: 'ٌRafik Application',
-      description: '"A community-based mobile application that connects people in need with nearby volunteers for real-time assistance and support.',
-      src: '/images/projectsImages/RafikApp.png',
-      code: 'https://github.com/NadaKenawy/Rafik-App',
-    },
-    {
-      id: 3,
-      title: 'Furniture E-commerce App',
-      description: 'A furniture e-commerce mobile application featuring product listings, detailed views, and a smooth shopping flow, designed with a clean UI and scalable architecture.',
-      src: '/images/projectsImages/FurnitureE-CommerceApp.png',
-      code: 'https://github.com/NadaKenawy/Final_Project_Furniture_App',
-    },
-    {
-    id: 4,
-    title: "Bookly App",
+    id: 1,
+    title: "CareNest - AI-Powered Infant Care AppDeveloped",
+    description: "It analyzes baby cries in real-time and tracks health and growth. It also provides vaccination reminders and a bilingual chatbot.The app helps parents manage infant care easily and confidently.",
+    technologies: "Using Flutter, Dart, Firebase, Dio, and Retrofit with Clean Architecture. Used Cubit for state management and get_it for dependency injection.",
+    src: "/images/projectsImages/CareNestApp.png",
+    code: "https://github.com/NadaKenawy/CareNest-App-GraduationProject",
+  },
+
+  {
+    id: 2,
+    title: "ORB – Smart Learning Marketplace",
     description:
-      "A modern book rental and browsing application that allows users to explore available books, view details, and follow a smooth booking experience with an attractive and user-friendly UI.",
-    src: "/images/projectsImages/BooklyApp.png",
-    code: "https://github.com/NadaKenawy/Bookly_app",
+      "A smart learning platform where students can request lessons and receive offers from tutors, negotiate prices in real-time, and join live sessions inside the app. It provides a seamless educational experience with chat, meetings, and secure payments.",
+    src: "/images/projectsImages/ORBApp.png",
+    code: "",
   },
     {
-      id: 5,
-      title: 'Weather App',
-      description: 'A weather forecasting mobile application that provides real-time weather updates, hourly and weekly forecasts, and location-based data using a clean and user-friendly interface.',
-      src: '/images/projectsImages/WeatherApp.png',
-      code: 'https://github.com/NadaKenawy/Weather-App',
-    },
-     {
-    id: 6,
-    title: "Chat App",
+    id: 3,
+    title: "Rafiq – Volunteer & Assistance Mobile App",
     description:
-      "A real-time chat application that allows users to send and receive messages instantly, manage conversations, and interact through a clean and intuitive UI, powered by Firebase Auth and Firestore.",
-    src: "/images/projectsImages/ChatApp.png",
-    code: "https://github.com/NadaKenawy/Chat-App",
+      "A community-based mobile application that connects people in need with nearby volunteers for real-time assistance and support.",
+    src: "/images/projectsImages/RafikApp.png",
+    code: "https://github.com/NadaKenawy/Rafik-App",
+  },
+    {
+    id: 4,
+    title: "Sheftaya – Daily Work Marketplace",
+    description:
+      "A mobile application that connects business owners with people seeking flexible daily work. Each shift includes clear details and real reviews, ensuring transparency and safety for both parties with secure financial handling.",
+    src: "/images/projectsImages/SheftayaApp.png",
+    code: "",
+  },
+  {
+    id: 5,
+    title: "UniVerse – University Management App",
+    description:
+      "A comprehensive university app that allows students to register courses, track attendance through QR scanning, monitor absence percentage, view lectures and schedules, submit issues to student affairs, and interact with a chatbot for assistance.",
+    src: "/images/projectsImages/UniverseApp.png",
+    code: "https://github.com/NadaKenawy/UniVerse",
+  },
+
+  {
+    id: 6,
+    title: "Furniture E-commerce App",
+    description:
+      "A furniture e-commerce mobile application featuring product listings, detailed views, and a smooth shopping flow, designed with a clean UI and scalable architecture.",
+    src: "/images/projectsImages/FurnitureE-CommerceApp.png",
+    code: "https://github.com/NadaKenawy/Final_Project_Furniture_App",
   },
 
   ];

@@ -10,36 +10,36 @@ const ProjectCard = ({ project, handleModalInfo }) => {
       {/* Image */}
       <div
         onClick={() => handleModalInfo(project)}
-        className="w-full cursor-pointer overflow-hidden rounded-t-xl"
+        className="w-full h-56 cursor-pointer overflow-hidden rounded-t-xl"
       >
         <img
           src={project.src}
           alt={project.title}
-          className="w-full h-auto max-w-full max-h-full object-contain transition-transform duration-300 hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
         />
       </div>
 
       {/* Content */}
-      <div className="flex flex-col justify-between flex-1 p-4 text-center">
+      <div className="flex flex-col justify-between flex-1 p-3 text-center">
         <div>
-          <h3 className="text-lg font-semibold mb-2">{project.title}</h3>
-          <p className="text-sm text-gray-400 mb-4">
+          <h3 className="text-base font-semibold mb-1">{project.title}</h3>
+          <p className="text-sm text-gray-400 mb-3 line-clamp-3">
             {project.description}
           </p>
         </div>
 
         {/* Buttons at the bottom */}
-        <div className="flex justify-center gap-3 mt-auto">
+        <div className="flex justify-center gap-2 mt-auto">
           <button
             onClick={() => openInNewTab(project.code)}
-            className="px-4 py-2 rounded-md bg-gradient-to-r from-primary-color to-green-400 text-black font-semibold hover:scale-105 transition-transform duration-300"
+            className="px-3 py-2 rounded-md bg-gradient-to-r from-primary-color to-green-400 text-black font-semibold hover:scale-105 transition-transform duration-300 text-sm"
           >
             View Code
           </button>
 
           <button
             onClick={() => handleModalInfo(project)}
-            className="px-4 py-2 rounded-md bg-gray-700 text-white font-semibold hover:scale-105 transition-transform duration-300"
+            className="px-3 py-2 rounded-md bg-gray-700 text-white font-semibold hover:scale-105 transition-transform duration-300 text-sm"
           >
             Details
           </button>
