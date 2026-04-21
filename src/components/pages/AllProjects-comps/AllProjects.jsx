@@ -5,7 +5,7 @@ const AllProjects = () => {
   const projects = [
     {
     id: 1,
-    title: "CareNest - AI-Powered Infant Care AppDeveloped",
+    title: "CareNest - AI-Powered Infant Care App",
     description: "It analyzes baby cries in real-time and tracks health and growth. It also provides vaccination reminders and a bilingual chatbot.The app helps parents manage infant care easily and confidently.",
     technologies: "Using Flutter, Dart, Firebase, Dio, and Retrofit with Clean Architecture. Used Cubit for state management and get_it for dependency injection.",
     src: "/images/projectsImages/CareNestApp.png",
@@ -14,7 +14,7 @@ const AllProjects = () => {
 
   {
     id: 2,
-    title: "ORB – Smart Learning Marketplace",
+    title: "ORB – Smart Learning App",
     description:
       "A smart learning platform where students can request lessons and receive offers from tutors, negotiate prices in real-time, and join live sessions inside the app. It provides a seamless educational experience with chat, meetings, and secure payments.",
     src: "/images/projectsImages/ORBApp.png",
@@ -22,7 +22,7 @@ const AllProjects = () => {
   },
     {
     id: 3,
-    title: "Rafiq – Volunteer & Assistance Mobile App",
+    title: "Rafiq – Volunteer & Assistance App",
     description:
       "A community-based mobile application that connects people in need with nearby volunteers for real-time assistance and support.",
     src: "/images/projectsImages/RafikApp.png",
@@ -30,7 +30,7 @@ const AllProjects = () => {
   },
     {
     id: 4,
-    title: "Sheftaya – Daily Work Marketplace",
+    title: "Sheftaya – Daily Work App",
     description:
       "A mobile application that connects business owners with people seeking flexible daily work. Each shift includes clear details and real reviews, ensuring transparency and safety for both parties with secure financial handling.",
     src: "/images/projectsImages/SheftayaApp.png",
